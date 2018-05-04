@@ -3,23 +3,44 @@
     <head>
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script src="js/jquery-1.10.2.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
       <script src="js/scripts.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Skranji" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
       <title>Ping Pong</title>
     </head>
     <body>
-      <div class="jumbotron">
-        <h1><strong>Ping Pong</strong></h1>
+
+      <div class="jumbotron" id="dead" >
+        <img src="red.png" height="300px" width="300px">
+        <h1 id="good"><em><strong>Ping Pong</strong></em></h1>
+        <h2 id="good">The epic Number Game</h2>
       </div>
+      <div>
+      <div id="qwerty">
+        <h2><strong>About The Game</strong></h2>
+        <p>The game shows the concept of checking:</p>
+        <ol>
+          <li>numbers Divisible by 3(ping)</li>
+            <li>numbers Divisible by 5(pong)</li>
+              <li>numbers Divisible by 3(ping)</li>
+            </ol>
+          </div>
+          <div>
       <form id="number">
         <label for="number2">Enter a number to find out the range:</label>
-            <input id="number2" type="text">
-          </div>
+            <input id="number2" type="text" class="form-control">
           <button type="submit" class="btn">Find out!</button>
-                  </form>
-                  <div id="wed">
-                    <ul id="dry">
-                    </ul>
-                    <div>
+          <ul id="dry">
+
+          </ul>
+          </form>
+        </div>
+      </div>
+        </body>
+      </html>
+
+
+
                     </body>
                       </html>
