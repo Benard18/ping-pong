@@ -1,3 +1,33 @@
-#result {
+#dry{
   display: none;
+}
+/* The animation code */
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+#dead {
+
+    background-color: red;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinity;
+   animation-direction: alternate-reverse;
+}
+#number {
+  font-family: 'Indie Flower', cursive;
+  float: left;
+
+
+}
+#qwerty {
+    font-family: 'Indie Flower', cursive;
+    float: left;
+    background-color: blue;
+    margin-right: 100px;
+
 }

@@ -4959,9 +4959,9 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color:#DEB887;
   text-align: center;
+  font-family: 'Skranji', cursive;
+  color: purple;
 }
 .jumbotron h1,
 .jumbotron .h1 {
